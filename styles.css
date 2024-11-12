@@ -7,13 +7,13 @@ body {
 }
 
 header, nav, section {
-    margin-left: 150px;
+    margin-left: 0;
 }
 
 header {
     background-color: #000;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -59,6 +59,6 @@ nav ul li a {
 
 section {
     padding: 20px;
-    margin: 20px 20px 20px 180px;
+    margin: 20px 20px 20px 170px;
     background-color: #444;
 }
