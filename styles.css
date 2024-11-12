@@ -5,6 +5,7 @@ body {
     background-color: #333;
     color: #fff;
     display: flex;
+    flex-direction: row;
 }
 
 .sidebar {
@@ -17,10 +18,11 @@ body {
     position: fixed;
     left: 0;
     top: 0;
+    overflow: auto;
 }
 
 .main-content {
-    margin-left: 270px;
+    margin-left: 250px;
     flex-grow: 1;
     padding: 20px;
     box-sizing: border-box;
