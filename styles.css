@@ -5,55 +5,30 @@ body {
     background-color: #333;
     color: #fff;
     display: flex;
-    justify-content: center;
-}
-
-.container {
-    display: flex;
-    width: 80%;
-    max-width: 1200px;
-    margin: 20px auto;
-    background-color: #444;
 }
 
 .sidebar {
-    width: 200px;
     background-color: #000;
     color: #fff;
+    width: 200px;
+    height: 100vh;
     padding: 20px;
-    flex-shrink: 0;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
-.content {
+.main-content {
+    margin-left: 220px;
     flex-grow: 1;
     padding: 20px;
-}
-
-header {
-    text-align: left;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0;
-}
-
-nav ul li {
-    margin: 10px 0;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    box-sizing: border-box;
 }
 
 section {
+    background-color: #444;
+    margin-bottom: 20px;
     padding: 20px;
-    margin-top: 20px;
-    background-color: #666;
+    box-sizing: border-box;
 }
