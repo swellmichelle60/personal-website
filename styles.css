@@ -6,11 +6,11 @@ body {
     color: #fff;
     display: flex;
 }
-/*test*/
+
 .sidebar {
     background-color: #000;
     color: #fff;
-    width: 200px;
+    width: 250px;
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
@@ -20,7 +20,7 @@ body {
 }
 
 .main-content {
-    margin-left: 220px;
+    margin-left: 270px;
     flex-grow: 1;
     padding: 20px;
     box-sizing: border-box;
